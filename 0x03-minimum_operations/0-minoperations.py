@@ -1,7 +1,11 @@
 #!/usr/bin/python3
 
+
 def minOperations(n):
-    """ Given a number n, this is a method that calculates the fewest number of operations needed to result in exactly n H characters in the file.
+    """ Given a number n, this is a method
+    that calculates the fewest number
+    of operations needed to result in
+    exactly n H characters in the file.
     """
     if n == 0 or type(n) is not int:
         return 0
