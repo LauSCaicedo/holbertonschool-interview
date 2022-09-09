@@ -40,7 +40,7 @@ int is_palindrome(listint_t **head)
 	{
 		return (1);
 	}
-	while (fast->next->next != NULL && fast->next != NULL && current != NULL)
+	while (fast != NULL && fast->next != NULL)
 	{
 		fast = fast->next->next;
 		slow = slow->next;
